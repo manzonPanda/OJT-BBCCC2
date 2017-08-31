@@ -1,0 +1,113 @@
+
+	#main{
+		display: none;
+	}	
+	#grocery{
+		display: none;
+	}
+	#officeSupplies{
+		display: none;
+	}
+	#officeEquipment{
+		display: none;
+	}
+	
+	#viewButtonMain{
+		color: blue;	
+	}
+	#viewButtonMain:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:aqua;
+	}
+	
+
+	#viewButtonGrocery{
+		color: blue;	
+	}
+	#viewButtonGrocery:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:aqua;
+	}
+
+	#viewButtonOfficeSupplies{
+		color: blue;	
+	}
+	#viewButtonOfficeSupplies:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:aqua;
+	}
+
+
+	#officeEquipment{
+		display: none;
+		
+	}
+	#viewButtonOfficeEquipment{
+		color: blue;	
+	}
+	#viewButtonOfficeEquipment:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:aqua;
+	}
+
+#belowStocksMainDiv{
+	display: none;
+}
+#belowStocksGroceryDiv{
+	display: none;
+}
+#belowStocksOfficeSuppliesDiv{
+	display: none;
+}
+#belowStocksOfficeEquipmentDiv{
+	display: none;
+}
+
+#viewStocksButtonMain{
+	color: blue;	
+}
+#viewStocksButtonMain:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:dodgerblue;
+}
+
+#viewStocksButtonGrocery{
+	color: green;	
+}
+#viewStocksButtonGrocery:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:limegreen;
+}
+
+#viewStocksButtonOfficeSupplies{
+	color: orange;	
+}
+#viewStocksButtonOfficeSupplies:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:orangered;
+}
+
+#viewStocksButtonOfficeEquipment{
+	color: red;	
+}
+#viewStocksButtonOfficeEquipment:hover{
+		cursor:pointer;
+		text-decoration: underline;
+		color:indianred;
+}
+
+
+
+
+
+
+
+
+
