@@ -458,7 +458,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='Main'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='Main' order by 'name' ");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -531,7 +531,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='grocery'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='grocery' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -600,7 +600,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='office supplies'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='office supplies' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -670,7 +670,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='office equipments'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='office equipments' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -770,7 +770,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='main'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='main' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -844,7 +844,7 @@
 									<?php
 										require ("connectDB.php");
 
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='grocery'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='grocery' order by 'name'");
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
 											echo " <option value='$itemDescription'> $itemDescription</option> ";
@@ -918,7 +918,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='office supplies'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='office supplies' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
@@ -990,7 +990,7 @@
 									<option selected disabled value=""></option>
 									<?php
 										require ("connectDB.php");
-										$sqlResult = mysqli_query($con,"SELECT name from items where type='office equipments'");
+										$sqlResult = mysqli_query($con,"SELECT name from items where type='office equipments' order by 'name'");
 
 										while ( $rows = mysqli_fetch_assoc($sqlResult)  ) {
 											$itemDescription = $rows['name'];
